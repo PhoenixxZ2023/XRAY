@@ -25,9 +25,9 @@ apt update && apt upgrade -y && update-grub && sleep 2 && reboot
 # Installation
 - via WGET
 ```
-wget -q https://raw.githubusercontent.com/wingshope/autoscript/main/xray && chmod +x xray && ./xray
+wget -q https://raw.githubusercontent.com/PhoenixxZ2023/XRAY/main/xray && chmod +x xray && ./xray
 ```
 - via CURL
 ```
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/wingshope/autoscript/master/xray)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/PhoenixxZ2023/XRAY/master/xray)"
 ```
