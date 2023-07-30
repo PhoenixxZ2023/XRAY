@@ -31,17 +31,8 @@ wget -q https://raw.githubusercontent.com/PhoenixxZ2023/XRAY/main/xray && chmod 
 ```
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/PhoenixxZ2023/XRAY/master/xray)"
 ```
+
 ~~~~
 apt update -y && apt upgrade -y && wget -q https://raw.githubusercontent.com/PhoenixxZ2023/XRAY/main/xray && chmod +x xray && ./xray
-~~~~
-
-# UPDATE UNTUK UBUNTU
-~~~~
-apt update && apt upgrade -y && update-grub && bash <(wget -q https://raw.githubusercontent.com/PhoenixxZ2023/XRAY/main/xray && chmod +x xray && ./xray)
-~~~~
-
-# UPDATE UNTUK UBUNTU
-~~~~
-apt update -y && apt upgrade -y && wget -y; bash <(wget -q https://raw.githubusercontent.com/PhoenixxZ2023/XRAY/main/xray && chmod +x xray && ./xray)
 ~~~~
 
