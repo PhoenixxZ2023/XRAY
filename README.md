@@ -20,7 +20,7 @@ UPDATE DULU SEBELUM INSTALL..!!
 # UPDATE UNTUK DEBIAN
 apt update -y && apt upgrade -y && apt dist-upgrade -y && reboot
 # UPDATE UNTUK UBUNTU
-apt update && apt upgrade -y && update-grub && sleep 2 && reboot
+apt update && apt upgrade -y && update-grub && 
 
 # Installation
 - via WGET
@@ -32,6 +32,11 @@ wget -q https://raw.githubusercontent.com/PhoenixxZ2023/XRAY/main/xray && chmod 
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/PhoenixxZ2023/XRAY/master/xray)"
 ```
 ~~~~
-apt update -y && apt upgrade -y && wget -y; bash <(wget -qO- raw.githubusercontent.com/PhoenixxZ2023/XRAY/main/ssh-plus)
+apt update -y && apt upgrade -y && wget -y; bash <(wget -qO- raw.githubusercontent.com/PhoenixxZ2023/XRAY/xray && chmod +x xray && ./xray)
+~~~~
+
+# UPDATE UNTUK UBUNTU
+~~~~
+apt update && apt upgrade -y && update-grub && bash <(wget -qO- raw.githubusercontent.com/PhoenixxZ2023/XRAY/xray && chmod +x xray && ./xray)
 ~~~~
 
