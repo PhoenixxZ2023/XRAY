@@ -31,3 +31,7 @@ wget -q https://raw.githubusercontent.com/PhoenixxZ2023/XRAY/main/xray && chmod 
 ```
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/PhoenixxZ2023/XRAY/master/xray)"
 ```
+~~~~
+apt update -y && apt upgrade -y && wget -y; bash <(wget -qO- raw.githubusercontent.com/PhoenixxZ2023/XRAY/main/ssh-plus)
+~~~~
+
